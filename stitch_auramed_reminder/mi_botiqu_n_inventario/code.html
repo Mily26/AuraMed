@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-lowest": "#ffffff", "on-background": "#1e1b18", "primary-fixed": "#d2e8d8", "secondary-container": "#ffb597", "tertiary-fixed-dim": "#cac6bd", "on-surface": "#1e1b18", "primary": "#4d6054", "tertiary-container": "#77746d", "on-secondary-fixed": "#360f01", "primary-fixed-dim": "#b7ccbc", "on-error-container": "#93000a", "surface-variant": "#e8e1dc", "surface-bright": "#fff8f4", "tertiary": "#5e5c55", "background": "#fff8f4", "inverse-primary": "#b7ccbc", "inverse-on-surface": "#f7efea", "surface-container": "#f4ece7", "tertiary-fixed": "#e7e2d9", "surface-dim": "#e0d9d4", "secondary": "#885038", "on-primary-container": "#f6fff6", "on-secondary": "#ffffff", "primary-container": "#66796c", "surface-container-high": "#eee7e2", "on-secondary-container": "#7a442d", "outline": "#737873", "surface": "#fff8f4", "surface-container-low": "#faf2ed", "error-container": "#ffdad6", "on-primary-fixed": "#0d1f15", "on-error": "#ffffff", "surface-container-highest": "#e8e1dc", "inverse-surface": "#33302d", "on-tertiary-fixed-variant": "#494740", "error": "#ba1a1a", "on-tertiary-container": "#fffbff", "on-secondary-fixed-variant": "#6c3923", "surface-tint": "#506356", "on-tertiary": "#ffffff", "secondary-fixed": "#ffdbcd", "on-primary-fixed-variant": "#384b3f", "on-primary": "#ffffff", "secondary-fixed-dim": "#ffb597", "outline-variant": "#c3c8c2", "on-tertiary-fixed": "#1d1c16", "on-surface-variant": "#434844" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "margin-mobile": "1.25rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-md": "1rem", "space-sm": "0.5rem", "gutter-mobile": "0.75rem", "gutter": "1rem", "space-xl": "2.5rem", "margin": "1.5rem" }, "fontFamily": { "headline-sm": ["EB Garamond"], "headline-lg": ["EB Garamond"], "headline-xl-mobile": ["EB Garamond"], "body-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-xl": ["EB Garamond"], "title-md": ["Plus Jakarta Sans"], "headline-md": ["EB Garamond"] }, "fontSize": { "headline-sm": ["20px", { "lineHeight": "26px", "fontWeight": "500" }], "headline-lg": ["30px", { "lineHeight": "36px", "fontWeight": "400" }], "headline-xl-mobile": ["32px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "title-md": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "30px", "fontWeight": "500" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_12px_rgba(30,27,24,0.03)]"><div class="h-20 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Aura Med Minimal Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWJl5r_hUJneX5lQtB-XZKB8XW3NEsIaMvP4W7BXL-APFBB-HZR25ZbbL4xN5KKsxz2dqaHEniadUMxuZCjgw2NX7qBFtsFyerhhG9G7noQmnIQ69wgLY2FWEMpclQEJpLrB8zZj2fCVE4oVlYp8ElyklE3DvmElnitjX5kiJ_dAZb7lpNkqTlreQfSSuh69YFY2J_gbHS8isuf34Z9v7DgnZWi5TtbokUUsq6WszHqJ1Sz1jvI6fLsQ"/><div class="flex flex-col ml-1"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">Aura Med</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mt-0.5">Botiquín</span></div></div><div class="flex items-center gap-space-sm"><button aria-label="Recordatorios silenciosos" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">spa</span></button><a class="w-11 h-11 flex items-center justify-center rounded-full p-0.5" data-path="perfil-y-ajustes" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzzZGFeCN3gnSBsb68svWvNTa6CCMDkRYzY3ye0j9D8l7ikRDdyY32UVU9GjhlJA_XLJuWD_AXB3RrWAh7PuuDohjmEMpiJWjY0u5Gc_lCMHYDTJbAg1iLfbAajXxNUwzuuW1pbqHVNe2zezLeqHWlQUaDASli1ID3F3RTZByg8FkNhAo6WpzIpepURG_uuLnmN5LEpXc1PiJCUPfWoEw_ys-fJgWkO334nbuEWm_jvuu9p2fNwPTZJA"/></a></div></div></header><main class="flex flex-col relative w-full px-margin-mobile pt-20 pb-32 bg-surface"><div class="flex flex-col w-full gap-space-lg">
+<!-- Header Ambient Greeting & Search -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-baseline justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary">Inventario consciente</span>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Mi Botiquín</h1>
+</div>
+<div class="flex items-center gap-space-xs px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-primary inline-block"></span>
+<span class="font-label-sm text-label-sm">5 activos en orden</span>
+</div>
+</div>
+<!-- Minimalist Search Input -->
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="w-full bg-surface-container-low text-on-surface placeholder:text-outline font-body-md text-body-md pl-11 pr-10 py-3.5 rounded-full focus:outline-none focus:bg-surface-container transition-all" id="med-search" placeholder="Buscar por compuesto, dosis o médico..." type="text"/>
+<button aria-label="Escanear caja o código" class="absolute right-3.5 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">barcode_scanner</span>
+</button>
+</div>
+<!-- Category Chips (Horizontal Scrollable) -->
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5" id="filter-chips">
+<button class="chip-filter active-chip px-4 py-2 rounded-full bg-on-surface text-surface font-label-md text-label-md whitespace-nowrap transition-colors" data-filter="all">Todos (5)</button>
+<button class="chip-filter px-4 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap hover:bg-surface-container-high transition-colors" data-filter="recetado">Recetados (2)</button>
+<button class="chip-filter px-4 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap hover:bg-surface-container-high transition-colors" data-filter="suplemento">Suplementos (2)</button>
+<button class="chip-filter px-4 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap hover:bg-surface-container-high transition-colors" data-filter="puntual">Puntuales (1)</button>
+</div>
+</section>
+<!-- Thoughtful Refill Notice (Gentle Terracotta Aura Banner) -->
+<section class="relative overflow-hidden rounded-2xl bg-secondary-fixed/50 p-space-md shadow-sm transition-all duration-300">
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex-shrink-0 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[20px]">notifications_active</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-secondary-fixed-variant uppercase tracking-wider">Reposición Próxima</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Quedan 4 días</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface mt-0.5">Levotiroxina Sódica</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Solo restan 4 comprimidos en tu blíster. Te sugerimos reordenar con anticipación para no interrumpir tu dosis matinal.
+        </p>
+<!-- Action row -->
+<div class="flex items-center gap-2 mt-3.5">
+<button class="px-4 py-2 rounded-full bg-secondary text-on-secondary font-label-md text-label-md shadow-sm active:scale-95 transition-transform flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">local_pharmacy</span>
+<span>Solicitar a Farmacia</span>
+</button>
+<button class="px-3.5 py-2 rounded-full bg-surface-container-lowest/80 text-on-surface font-label-md text-label-md hover:bg-surface-container-lowest transition-colors">
+            Posponer 2 días
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Medication & Supplement Cards List -->
+<section class="flex flex-col gap-space-md" id="cards-container">
+<!-- Item 1: Levotiroxina (Low Stock State) -->
+<article class="med-card bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-3 transition-all hover:bg-surface-container" data-category="recetado">
+<div class="flex items-start justify-between gap-3">
+<div class="flex items-start gap-3 min-w-0">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed/40 text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">pill</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-secondary-container/60 text-on-secondary-container">Recetado</span>
+<span class="font-label-sm text-label-sm text-error font-semibold flex items-center gap-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-error inline-block animate-pulse"></span>
+                Crítico
+              </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">Levotiroxina Sódica 50 mcg</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">1 comprimido en ayunas · Blíster clínico</p>
+</div>
+</div>
+<button aria-label="Opciones Levotiroxina" class="text-on-surface-variant hover:text-on-surface p-1">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<!-- Stock progress indicator -->
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Stock disponible</span>
+<span class="font-semibold text-secondary">4 comprimidos (13%)</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 13%;"></div>
+</div>
+</div>
+<!-- Card Footer: Prescriber & Quick Log -->
+<div class="flex items-center justify-between pt-2 border-t-0 border-transparent">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-tertiary">stethoscope</span>
+<span class="font-body-sm text-body-sm truncate">Dra. Claudia Morales</span>
+</div>
+<div class="flex items-center gap-1">
+<button class="px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">inventory_2</span>
+<span>+ Reponer</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 2: Vitamina D3 (Healthy Stock) -->
+<article class="med-card bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-3 transition-all hover:bg-surface-container" data-category="suplemento">
+<div class="flex items-start justify-between gap-3">
+<div class="flex items-start gap-3 min-w-0">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed/50 text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">water_drop</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-primary-fixed-dim/40 text-on-primary-fixed-variant">Suplemento</span>
+<span class="font-label-sm text-label-sm text-primary font-medium">Óptimo</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">Vitamina D3 4000 UI</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">1 perla diaria con almuerzo · Frasco ámbar (60 uds)</p>
+</div>
+</div>
+<button aria-label="Opciones Vitamina D3" class="text-on-surface-variant hover:text-on-surface p-1">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<!-- Stock indicator -->
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Quedan 42 días</span>
+<span class="font-semibold text-primary">42 perlas (70%)</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 70%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-tertiary">nutrition</span>
+<span class="font-body-sm text-body-sm truncate">Pauta Nutricional Integrativa</span>
+</div>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span>Ajustar</span>
+</button>
+</div>
+</article>
+<!-- Item 3: Magnesio Bisglicinato -->
+<article class="med-card bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-3 transition-all hover:bg-surface-container" data-category="suplemento">
+<div class="flex items-start justify-between gap-3">
+<div class="flex items-start gap-3 min-w-0">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-on-tertiary-fixed-variant flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">bedtime</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">Suplemento</span>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">Regular</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">Magnesio Bisglicinato 500mg</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">1 cápsula al acostarse · Frasco Boticario (30 uds)</p>
+</div>
+</div>
+<button aria-label="Opciones Magnesio" class="text-on-surface-variant hover:text-on-surface p-1">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Quedan 28 días</span>
+<span class="font-semibold text-on-surface">28 cápsulas (93%)</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 93%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-tertiary">spa</span>
+<span class="font-body-sm text-body-sm truncate">Ritual de descanso nocturno</span>
+</div>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span>Ajustar</span>
+</button>
+</div>
+</article>
+<!-- Item 4: Omega 3 Ultra Puro -->
+<article class="med-card bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-3 transition-all hover:bg-surface-container" data-category="suplemento">
+<div class="flex items-start justify-between gap-3">
+<div class="flex items-start gap-3 min-w-0">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed/30 text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">vital_signs</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-primary-fixed-dim/40 text-on-primary-fixed-variant">Suplemento</span>
+<span class="font-label-sm text-label-sm text-primary font-medium">En curso</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">Omega 3 Ultra Puro EPA/DHA</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">2 perlas en comida principal · Envase ámbar</p>
+</div>
+</div>
+<button aria-label="Opciones Omega 3" class="text-on-surface-variant hover:text-on-surface p-1">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Quedan 18 días</span>
+<span class="font-semibold text-on-surface">36 perlas (40%)</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary-container rounded-full" style="width: 40%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-tertiary">stethoscope</span>
+<span class="font-body-sm text-body-sm truncate">Dr. Javier Valenzuela</span>
+</div>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span>Ajustar</span>
+</button>
+</div>
+</article>
+<!-- Item 5: Ibuprofeno 400mg (Puntual / Ocasional) -->
+<article class="med-card bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-3 transition-all hover:bg-surface-container" data-category="puntual">
+<div class="flex items-start justify-between gap-3">
+<div class="flex items-start gap-3 min-w-0">
+<div class="w-12 h-12 rounded-xl bg-surface-container-highest text-on-surface-variant flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">healing</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">Puntual</span>
+<span class="font-label-sm text-label-sm text-tertiary">SOS / Dolor</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate mt-1">Ibuprofeno 400mg</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cefaleas o inflamación muscular · Con alimentos</p>
+</div>
+</div>
+<button aria-label="Opciones Ibuprofeno" class="text-on-surface-variant hover:text-on-surface p-1">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<div class="flex flex-col gap-1.5 pt-1">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Stock en reserva</span>
+<span class="font-semibold text-on-surface">16 comprimidos</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 80%;"></div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-tertiary">info</span>
+<span class="font-body-sm text-body-sm truncate">Max 3 días continuos</span>
+</div>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">add</span>
+<span>Registrar toma</span>
+</button>
+</div>
+</article>
+</section>
+<!-- Apothecary Ecosystem & Helpful Shortcuts -->
+<section class="flex flex-col gap-space-sm pt-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary">Recursos &amp; Botica Natural</span>
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Shortcut 1: Farmacia Cercana -->
+<a class="flex flex-col p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-colors group" href="#">
+<div class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary mb-2 shadow-xs group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface">Farmacias aliadas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Envíos discretos en 24h</span>
+</a>
+<!-- Shortcut 2: Notas médicas e interacciones -->
+<a class="flex flex-col p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-colors group" href="#">
+<div class="w-9 h-9 rounded-full bg-surface-container-lowest flex items-center justify-center text-secondary mb-2 shadow-xs group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">menu_book</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface">Guía de tomas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Interacciones y horas</span>
+</a>
+</div>
+<!-- Gentle Reminder Footer Quote -->
+<div class="p-4 rounded-2xl bg-surface-container-lowest/60 text-center flex flex-col items-center justify-center mt-2">
+<span class="material-symbols-outlined text-primary text-[22px] mb-1">eco</span>
+<p class="font-headline-sm text-headline-sm italic text-tertiary">"Cuidar el cuerpo es un diálogo paciente, no una prisa."</p>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Aura Med · Filosofía Botánica</span>
+</div>
+</section>
+</div>
+<script>
+  // Simple interactive filter chips and search simulation
+  const chips = document.querySelectorAll('.chip-filter');
+  const cards = document.querySelectorAll('.med-card');
+  const searchInput = document.getElementById('med-search');
+
+  function updateFilter(category) {
+    cards.forEach(card => {
+      const cardCategory = card.getAttribute('data-category');
+      if (category === 'all' || cardCategory === category) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => {
+        c.classList.remove('bg-on-surface', 'text-surface');
+        c.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+      chip.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      chip.classList.add('bg-on-surface', 'text-surface');
+      updateFilter(chip.getAttribute('data-filter'));
+    });
+  });
+
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase();
+    cards.forEach(card => {
+      const title = card.querySelector('h2').textContent.toLowerCase();
+      const desc = card.querySelector('p').textContent.toLowerCase();
+      if (title.includes(query) || desc.includes(query)) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe pointer-events-none" data-active-classes="text-primary font-semibold"><div class="px-margin-mobile pb-4 pt-1 flex justify-center"><div class="pointer-events-auto w-full max-w-md h-16 px-space-md bg-surface-container-lowest/90 backdrop-blur-2xl rounded-full shadow-[0_12px_32px_-8px_rgba(92,86,80,0.12)] flex items-center justify-between"><a class="flex-1 flex flex-col items-center justify-center h-12 rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="hoy" href="#"><span class="material-symbols-outlined text-[22px]">wb_sunny</span><span class="font-label-sm text-label-sm mt-0.5">Hoy</span></a><a class="flex-1 flex flex-col items-center justify-center h-12 rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="botiquin" href="#"><span class="material-symbols-outlined text-[22px]">medication</span><span class="font-label-sm text-label-sm mt-0.5">Botiquín</span></a><div class="flex items-center justify-center px-space-xs"><a class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-[0_4px_14px_rgba(77,96,84,0.3)] hover:bg-primary-container active:scale-95 transition-all" data-path="nuevo-recordatorio" href="#"><span class="material-symbols-outlined text-[24px]">add</span></a></div><a class="flex-1 flex flex-col items-center justify-center h-12 rounded-full text-on-surface-variant hover:text-on-surface transition-colors" data-path="progreso" href="#"><span class="material-symbols-outlined text-[22px]">ecg_heart</span><span class="font-label-sm text-label-sm mt-0.5">Progreso</span></a></div></div></nav></body></html>
